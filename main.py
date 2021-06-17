@@ -8,6 +8,7 @@ def webhook():
         print(request.json)
         return 'success', 200
     else:
+        print("Hello World!")
         abort(400)
 
 if __name__ == '__main__':
